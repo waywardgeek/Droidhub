@@ -12,32 +12,32 @@ install and uninstall them in your application directory, deal with
 dependencies, create your own packages, and publish them.  Supported commands
 are projected to include (courtesy of Doug in the Droidhub Google group):
 
-\# Install a package from a repository (droidhub.net by default)
+\# Install a package from a repository (droidhub.net by default)  
 droid install [name] [path/to/app]
 
-\# Install a package manually
+\# Install a package manually  
 droid install [path/to/src] [path/to/app]
 
-\# Search the packages for relevant info
+\# Search the packages for relevant info  
 droid search [keywords]
 
-\# List all available packages
+\# List all available packages  
 droid list
 
-\# Fetch and display the info about a package.
+\# Fetch and display the info about a package.  
 droid list [name]
 
-\# Run wizard to create droidhub package directory
+\# Run wizard to create droidhub package directory  
 droid init
 
-\# Upload your package to the target repository (defaults to droidhub.net)
+\# Upload your package to the target repository (defaults to droidhub.net)  
 droid publish [target]
 
-\# Add a new repository
+\# Add a new repository  
 droid repo-add [URL]
 
-\# Remove a repository
+\# Remove a repository  
 droid repo-remove [URL]
 
-\# List repos
+\# List repos  
 droid repo-list
