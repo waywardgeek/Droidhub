@@ -1,0 +1,7 @@
+#!/bin/bash
+
+files="index.html"
+
+markdown_py index.md > index.html
+scp $files root@droidhub.net:/var/www/droidhub.net
+rm index.html

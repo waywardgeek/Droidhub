@@ -1,0 +1,13 @@
+package sonic-ndk 0.1.13
+copyright LGPL-2.1 2010-2011 "Bill Cox"
+project-url http://dev.vinux-project.org/sonic/
+download-url https://github.com/waywardgeek/sonic-ndk
+short-description "Simple library to speed up or slow down speech"
+long-description "Sonic is a simple utility that speeds up or slows down speech
+ samples, with low distortion.  It is a JNI package that modifies speech samples
+ in a byte array."
+architectures armeabi armeabi-v7a
+# Note that dependencies would be listed here, if there were any
+install ./src/org/vinuxproject/sonic/Sonic.java
+install ./libs/armeabi/libsonic.so
+install ./libs/armeabi-v7a/libsonic.so

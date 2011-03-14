@@ -1,0 +1,9 @@
+This is where Droidhub.net utilities are maintained.  The primary interface will
+very likely be web based, at Github.net.  However, the actual tools that do the
+work will be written in C, and they will work from the command line, and should
+port easily to Windows and Mac OS X.
+
+The primary tool will be 'droid', which will allow you to search for packages,
+install and uninstall them in your application directory, deal with
+dependencies, create your own packages, and publish them.  Check the
+droidhub.net web site for more info.
